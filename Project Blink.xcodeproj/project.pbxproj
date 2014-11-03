@@ -21,9 +21,6 @@
 		DC734B35191EC0EE00B0807F /* Project_BlinkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DC734B34191EC0EE00B0807F /* Project_BlinkTests.m */; };
 		DC734B45191EC12B00B0807F /* Cylinder_BW.png in Resources */ = {isa = PBXBuildFile; fileRef = DC734B40191EC12B00B0807F /* Cylinder_BW.png */; };
 		DC734B47191EC12B00B0807F /* BW.png in Resources */ = {isa = PBXBuildFile; fileRef = DC734B43191EC12B00B0807F /* BW.png */; };
-		DC734B5D191EC14900B0807F /* SPCView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC734B57191EC14900B0807F /* SPCView.m */; };
-		DC734B5E191EC14900B0807F /* SPCLedGeom.m in Sources */ = {isa = PBXBuildFile; fileRef = DC734B59191EC14900B0807F /* SPCLedGeom.m */; };
-		DC734B5F191EC14900B0807F /* SPCLedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = DC734B5B191EC14900B0807F /* SPCLedArray.m */; };
 		DC734B65191EC2B200B0807F /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC734B64191EC2B200B0807F /* SceneKit.framework */; };
 		DC734B67191EC2B900B0807F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC734B66191EC2B900B0807F /* QuartzCore.framework */; };
 		DC734B6D191EC70500B0807F /* SPCTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC734B6C191EC70500B0807F /* SPCTimelineViewController.m */; };
@@ -33,6 +30,9 @@
 		DCAEF1151A081166000C2303 /* SPCTimelineView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAEF1121A081166000C2303 /* SPCTimelineView.m */; };
 		DCAEF1181A08119E000C2303 /* SPCSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAEF1171A08119E000C2303 /* SPCSceneViewController.m */; };
 		DCAEF11B1A0811EF000C2303 /* SPCTransparentWindowView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAEF11A1A0811EF000C2303 /* SPCTransparentWindowView.m */; };
+		DCAEF11E1A0817D3000C2303 /* SPCLedGeom.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAEF11D1A0817D3000C2303 /* SPCLedGeom.m */; };
+		DCAEF1211A0817E7000C2303 /* SPCLedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAEF1201A0817E7000C2303 /* SPCLedArray.m */; };
+		DCAEF1241A08182B000C2303 /* SPCView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAEF1231A08182B000C2303 /* SPCView.m */; };
 		DCFC4428192D5AF8000D5E5F /* SPCLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DCFC4427192D5AF8000D5E5F /* SPCLayer.m */; };
 /* End PBXBuildFile section */
 
@@ -69,12 +69,6 @@
 		DC734B34191EC0EE00B0807F /* Project_BlinkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Project_BlinkTests.m; sourceTree = "<group>"; };
 		DC734B40191EC12B00B0807F /* Cylinder_BW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cylinder_BW.png; sourceTree = "<group>"; };
 		DC734B43191EC12B00B0807F /* BW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BW.png; sourceTree = "<group>"; };
-		DC734B56191EC14900B0807F /* SPCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPCView.h; path = ../../SceneKit_Examples/SPCView.h; sourceTree = "<group>"; };
-		DC734B57191EC14900B0807F /* SPCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPCView.m; path = ../../SceneKit_Examples/SPCView.m; sourceTree = "<group>"; };
-		DC734B58191EC14900B0807F /* SPCLedGeom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPCLedGeom.h; path = ../../SceneKit_Examples/SPCLedGeom.h; sourceTree = "<group>"; };
-		DC734B59191EC14900B0807F /* SPCLedGeom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPCLedGeom.m; path = ../../SceneKit_Examples/SPCLedGeom.m; sourceTree = "<group>"; };
-		DC734B5A191EC14900B0807F /* SPCLedArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SPCLedArray.h; path = ../../SceneKit_Examples/SPCLedArray.h; sourceTree = "<group>"; };
-		DC734B5B191EC14900B0807F /* SPCLedArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SPCLedArray.m; path = ../../SceneKit_Examples/SPCLedArray.m; sourceTree = "<group>"; };
 		DC734B60191EC29100B0807F /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
 		DC734B62191EC29900B0807F /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		DC734B64191EC2B200B0807F /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
@@ -93,6 +87,12 @@
 		DCAEF1171A08119E000C2303 /* SPCSceneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPCSceneViewController.m; sourceTree = "<group>"; };
 		DCAEF1191A0811EF000C2303 /* SPCTransparentWindowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPCTransparentWindowView.h; sourceTree = "<group>"; };
 		DCAEF11A1A0811EF000C2303 /* SPCTransparentWindowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPCTransparentWindowView.m; sourceTree = "<group>"; };
+		DCAEF11C1A0817D3000C2303 /* SPCLedGeom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPCLedGeom.h; sourceTree = "<group>"; };
+		DCAEF11D1A0817D3000C2303 /* SPCLedGeom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPCLedGeom.m; sourceTree = "<group>"; };
+		DCAEF11F1A0817E7000C2303 /* SPCLedArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPCLedArray.h; sourceTree = "<group>"; };
+		DCAEF1201A0817E7000C2303 /* SPCLedArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPCLedArray.m; sourceTree = "<group>"; };
+		DCAEF1221A08182B000C2303 /* SPCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPCView.h; sourceTree = "<group>"; };
+		DCAEF1231A08182B000C2303 /* SPCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPCView.m; sourceTree = "<group>"; };
 		DCFC4426192D5AF8000D5E5F /* SPCLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPCLayer.h; sourceTree = "<group>"; };
 		DCFC4427192D5AF8000D5E5F /* SPCLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPCLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -215,14 +215,14 @@
 		DC734B6E191ECCA100B0807F /* LED View Group */ = {
 			isa = PBXGroup;
 			children = (
+				DCAEF1221A08182B000C2303 /* SPCView.h */,
+				DCAEF1231A08182B000C2303 /* SPCView.m */,
 				DCAEF1161A08119E000C2303 /* SPCSceneViewController.h */,
 				DCAEF1171A08119E000C2303 /* SPCSceneViewController.m */,
-				DC734B56191EC14900B0807F /* SPCView.h */,
-				DC734B57191EC14900B0807F /* SPCView.m */,
-				DC734B58191EC14900B0807F /* SPCLedGeom.h */,
-				DC734B59191EC14900B0807F /* SPCLedGeom.m */,
-				DC734B5A191EC14900B0807F /* SPCLedArray.h */,
-				DC734B5B191EC14900B0807F /* SPCLedArray.m */,
+				DCAEF11F1A0817E7000C2303 /* SPCLedArray.h */,
+				DCAEF1201A0817E7000C2303 /* SPCLedArray.m */,
+				DCAEF11C1A0817D3000C2303 /* SPCLedGeom.h */,
+				DCAEF11D1A0817D3000C2303 /* SPCLedGeom.m */,
 			);
 			name = "LED View Group";
 			sourceTree = "<group>";
@@ -348,19 +348,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC734B5E191EC14900B0807F /* SPCLedGeom.m in Sources */,
-				DC734B5F191EC14900B0807F /* SPCLedArray.m in Sources */,
 				DC734B14191EC0EE00B0807F /* main.m in Sources */,
 				DCAEF10C1A081158000C2303 /* SPCFrame.m in Sources */,
 				DCAEF1181A08119E000C2303 /* SPCSceneViewController.m in Sources */,
 				DCAEF1151A081166000C2303 /* SPCTimelineView.m in Sources */,
 				DCAEF1131A081166000C2303 /* SPCledColor.m in Sources */,
-				DC734B5D191EC14900B0807F /* SPCView.m in Sources */,
 				DC734B1B191EC0EE00B0807F /* SPCDocument.m in Sources */,
 				DCAEF11B1A0811EF000C2303 /* SPCTransparentWindowView.m in Sources */,
 				DCAEF1141A081166000C2303 /* SPCTimeline.m in Sources */,
 				DC734B6D191EC70500B0807F /* SPCTimelineViewController.m in Sources */,
+				DCAEF11E1A0817D3000C2303 /* SPCLedGeom.m in Sources */,
 				DCFC4428192D5AF8000D5E5F /* SPCLayer.m in Sources */,
+				DCAEF1211A0817E7000C2303 /* SPCLedArray.m in Sources */,
+				DCAEF1241A08182B000C2303 /* SPCView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
